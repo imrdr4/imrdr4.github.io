@@ -1,223 +1,1168 @@
 <!DOCTYPE html>
-<html lang=zh>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
 <head>
-    <!-- so meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="Geek&#39;s Planet">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Geek&#39;s Planet">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Geek&#39;s Planet">
-    
-    
-        
-          
-              <link rel="shortcut icon" href="/images/favicon.ico">
-          
-        
-        
-          
-            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
-          
-        
-        
-          
-            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-          
-        
-    
-    <!-- title -->
-    <title>Geek&#39;s Planet</title>
-    <!-- styles -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- rss -->
-    
-    
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title>Geek's Planet</title>
+  
+
+
+
+
+
+
+
+
 </head>
 
-<body>
-    
-    <div class="content index width mx-auto px2 my4">
-        
-          <header id="header">
-  <a href="/">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
   
     
-      <div id="logo" style="background-image: url(/images/logo.png);"></div>
-    
   
-    <div id="title">
-      <h1>Geek&#39;s Planet</h1>
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Geek's Planet</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
-  </a>
-  <div id="nav">
-    <ul>
-      <li class="icon">
-        <a href="#"><i class="fa fa-bars fa-2x"></i></a>
-      </li>
-       
-        <li><a href="/">Home</a></li>
-       
-        <li><a href="/about/">About</a></li>
-       
-        <li><a href="/archives/">Writing</a></li>
-       
-        <li><a href="http://github.com/probberechts">Projects</a></li>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+
       
     </ul>
-  </div>
-</header>
-
-        
-        <section id="about">
   
-  <p style="display: inline">
-    
-      Find me on
-      <ul id="socialinfo">
-        
-          <li><a class="icon" target="_blank" href="http://github.com/probberechts/cactus-dark"><i class="fa fa-github"></i></a></li>
-        
-          <li><a class="icon" target="_blank" href="/"><i class="fa fa-twitter"></i></a></li>
-        
-          <li><a class="icon" target="_blank" href="/"><i class="fa fa-facebook"></i></a></li>
-        
-          <li><a class="icon" target="_blank" href="/"><i class="fa fa-linkedin"></i></a></li>
-        
-      </ul>.
-    
-  </p>
-</section>
 
-<section id="writing">
-  <span class="h1"><a href="/archives">Writing</a></span>
-  <ul class="post-list">
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
     
       
-    
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-01-19T12:21:36.000Z" itemprop="datePublished">2018-01-19</time>
-    </div>
 
-
-        <span>
-    
-        <a class="" href="/2018/01/19/Windows-常用命令/">Windows 常用命令</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-01-19T12:17:13.000Z" itemprop="datePublished">2018-01-19</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2018/01/19/Linux-清理系统开机启动项/">Linux 清理系统开机启动项</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-01-19T12:11:23.000Z" itemprop="datePublished">2018-01-19</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2018/01/19/CentOS-系统配置/">CentOS 系统配置</a>
-    
-
-
-</span>
-      </li>
-    
-      <li class="post-item">
-        
-    <div class="meta">
-        <time datetime="2018-01-19T12:08:29.000Z" itemprop="datePublished">2018-01-19</time>
-    </div>
-
-
-        <span>
-    
-        <a class="" href="/2018/01/19/U盘制作-Win7-系统安装盘/">U盘制作 Win7 系统安装盘</a>
-    
-
-
-</span>
-      </li>
-    
-  </ul>
   
-</section>
 
+  
+  
+  
 
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/19/Windows-常用命令/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="imrdr4@126.com">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek's Planet">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/19/Windows-常用命令/" itemprop="url">Windows 常用命令</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-19T20:21:36+08:00">
+                2018-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>net 的常用用法</p>
+<p>查看共享连接        net use    </p>
+<p>增加远程共享        net use \host /u:user passwd</p>
+<p>查看域中当前的主机列表    net view /domain</p>
+<p>查看当前域中的用户    net user /domain</p>
+<p>增加一个本地用户        net user user pass /add</p>
+<p>将新增的用户加到本地管理员组    net localgroup “Administrators” user /add</p>
+<p>查看域中的密码策略    net accounts /domain</p>
+<p>查看本地组        net localgroup “Group”</p>
+<p>查看域中的组信息        net group /domain</p>
+<p>查看域中指定组的成员    net group “Domain group” /domain</p>
+<p>查看当前机器所在的域名    net config workstation</p>
+<p>查看当前服务器所在的域名    net config server</p>
+<p>系统信息相关命令</p>
+<p>显示系统信息        systeminfo</p>
+<p>查看远程主机的系统信息    systeminfo /S ip /U domain\user /P Pwd</p>
+<p>显示进程和服务信息    tasklist /svc</p>
+<p>显示所有进程以及DLL信息    tasklist /m</p>
+<p>显示进程和所有者        tasklist /v</p>
+<p>查看远程主机的进程列表    tasklist /S ip /v</p>
+<p>搜索所有 pdf 文件    dir /a /s /b c:\’.pdf’</p>
+<p>显示服务信息        sc query    </p>
+<p>显示具体的服务信息（包括二进制路径和运行使用）    sc qc Spooler</p>
+<p>找出文件名字包含 password 的文件            findstr /si ‘password’ .txt  </p>
+<p>搜索敏感文件名称        dir /s <em>pass</em> == <em>cred</em> == <em>vnc</em> == <em>.config</em> </p>
+<p>更改服务的二进制路径    sc config upnphost binpath= “C:\nc.exe”</p>
+<p>修改系统服务的权限    sc config upnphost obj= “.\LocalSystem” password= “”</p>
+<p>检查系统服务的权限    accesschk.exe -ucqv “Authenticated Users” * /accepteula</p>
+<p>检查指定服务的权限    accesschk.exe -ucqv ServceName /accepteula</p>
+<p>检查指定组在指定目录下的写权限    accesschk.exe -uwdqs “Authenticated Users” c:\ /accepteula</p>
+<p>网络信息</p>
+<p>打印路由表        route print</p>
+<p>保存当前主机上的所有WiFi信息    netsh wlan export profile folder=. key=clear</p>
+<p>设置当前配置禁用防火墙    netsh advfirewall set currentprofile state off</p>
+<p>设置端口转发        netsh interface portproxy add v4tov4 listenport=3000 listenaddress=l.l.l.l connectport=4000 connectaddress=2.2.2.2</p>
+<p>开启远程访问<br>启用远程访问        reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fDenyTSConnections /t REG_DWORD /d 0 /f</p>
+<p>启用远程协助        reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fAllowToGetHelp /t REG_DWORD /d 1 /f</p>
+<p>修改远程访问端口        reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp” /v PortNumber /t REG_DWORD /d 12345 /f</p>
+<p>注册表操作<br>查找注册表中的密码    reg query HKLM /f password /t REG_SZ /s</p>
+<p>查询 winlogon 信息    reg query “HKLM\Software\Microsoft\Windows NT\CurrentVersion\winlogon”</p>
+<p>使用 powershell<br>下载文件        powershell -c “(new-object System.Net.WebClient).DownloadFile(‘<a href="http://blabla.com/test.txt&#39;,&#39;C:\Users\admin\Desktop\test.test" target="_blank" rel="noopener">http://blabla.com/test.txt&#39;,&#39;C:\Users\admin\Desktop\test.test</a>‘)”</p>
+<p>列出运行的服务        Get-Service I where object {$ .status -eq Running}</p>
+<p>编译 C# 代码<br>1、切换到 .NET 目录    cd C:\Windows\Microsoft.NET\Framework64\v4.0.30319 (或者 .NET 的对应版本的目录)</p>
+<p>2、编译 x86 版本    csc.exe /unsafe /reference:”C:\path\to\System.Management.Automation.dll” /reference:System.IO.Compression.dll /out:<out_file_name> /platform:x86 “/cs/files/dir/*.cs”</out_file_name></p>
+<p>3、编译 x64 版本</p>
+<p>csc.exe /unsafe /reference:”C:\path\to\System.Management.Automation.dll” /reference:System.IO.Compression.dll /out:<out_file_name> /platform:x64 “/cs/files/dir/*.cs”</out_file_name></p>
+
+          
+        
+      
     </div>
     
-    <footer id="footer">
-  <div class="footer-left">
-    Copyright &copy; 2018 imrdr4@126.com
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
-  <div class="footer-right">
-    <nav>
-      <ul>
-         
-          <li><a href="/">Home</a></li>
-         
-          <li><a href="/about/">About</a></li>
-         
-          <li><a href="/archives/">Writing</a></li>
-         
-          <li><a href="http://github.com/probberechts">Projects</a></li>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/19/Linux-清理系统开机启动项/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="imrdr4@126.com">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek's Planet">
+    </span>
+
+    
+      <header class="post-header">
+
         
-      </ul>
-    </nav>
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/19/Linux-清理系统开机启动项/" itemprop="url">Linux 清理系统开机启动项</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-19T20:17:13+08:00">
+                2018-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="查看开机启动项"><a href="#查看开机启动项" class="headerlink" title="查看开机启动项"></a>查看开机启动项</h2><ul>
+<li><code>systemctl list-unit-files --type=service | grep enabled</code></li>
+</ul>
+<h2 id="停止项目"><a href="#停止项目" class="headerlink" title="停止项目"></a>停止项目</h2><blockquote>
+<p>例如</p>
+<ul>
+<li><code>sudo systemctl stop bluetooth.service</code></li>
+<li><code>sudo systemctl disable bluetooth.service</code></li>
+</ul>
+</blockquote>
+<h2 id="通过下面命令确定是否操作成功"><a href="#通过下面命令确定是否操作成功" class="headerlink" title="通过下面命令确定是否操作成功"></a>通过下面命令确定是否操作成功</h2><ul>
+<li><code>systemctl status bluetooth.service</code></li>
+</ul>
+<h2 id="阻止该进程在任何情况下开机启动"><a href="#阻止该进程在任何情况下开机启动" class="headerlink" title="阻止该进程在任何情况下开机启动"></a>阻止该进程在任何情况下开机启动</h2><blockquote>
+<p>停用的服务进程仍然能够被另外一个服务进程启动。如果你真的想在任何情况下系统启动时都不启动该进程，无需卸载该它，只需要把它掩盖起来就可以阻止该进程在任何情况下开机启动。</p>
+</blockquote>
+<ul>
+<li><code>sudo systemctl mask bluetooth.service</code></li>
+</ul>
+<h2 id="卸载该程序"><a href="#卸载该程序" class="headerlink" title="卸载该程序"></a>卸载该程序</h2><blockquote>
+<p>一旦你对禁用该进程启动而没有出现负面作用感到满意，你也可以选择卸载该程序。</p>
+</blockquote>
+<h2 id="获得如下服务列表"><a href="#获得如下服务列表" class="headerlink" title="获得如下服务列表"></a>获得如下服务列表</h2><ul>
+<li><code>systemctl list-unit-files --type=service</code><blockquote>
+<p>你不能启用或禁用静态服务，因为静态服务被其他的进程所依赖，并不意味着它们自己运行.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="哪些服务能够禁止"><a href="#哪些服务能够禁止" class="headerlink" title="哪些服务能够禁止"></a>哪些服务能够禁止</h2><ul>
+<li>accounts-daemon.service 是一个潜在的安全风险。它是 AccountsService 的一部分，AccountsService 允许程序获得或操作用户账户信息。我不认为有好的理由能使我允许这样的后台操作，所以我选择掩盖mask该服务进程。</li>
+<li>avahi-daemon.service 用于零配置网络发现，使电脑超容易发现网络中打印机或其他的主机，我总是禁用它，别漏掉它。</li>
+<li>brltty.service 提供布莱叶盲文设备支持，例如布莱叶盲文显示器。</li>
+<li>debug-shell.service 开放了一个巨大的安全漏洞（该服务提供了一个无密码的 root shell ，用于帮助 调试 systemd 问题），除非你正在使用该服务，否则永远不要启动服务。</li>
+<li>ModemManager.service 该服务是一个被 dbus 激活的守护进程，用于提供移动宽频broadband（2G/3G/4G）接口，如果你没有该接口，无论是内置接口，还是通过如蓝牙配对的电话，以及 USB 适配器，那么你也无需该服务。</li>
+<li>pppd-dns.service 是一个计算机发展的遗物，如果你使用拨号接入互联网的话，保留它，否则你不需要它。</li>
+<li>rtkit-daemon.service 听起来很可怕，听起来像是 rootkit。 但是你需要该服务，因为它是一个实时内核调度器real-time kernel scheduler。</li>
+<li>whoopsie.service 是 Ubuntu 错误报告服务。它用于收集 Ubuntu 系统崩溃报告，并发送报告到 <a href="https://daisy.ubuntu.com" target="_blank" rel="noopener">https://daisy.ubuntu.com</a> 。 你可以放心地禁止其启动，或者永久的卸载它。</li>
+<li>wpa_supplicant.service 仅在你使用 Wi-Fi 连接时需要。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line"># coding: utf-8</span><br><span class="line"></span><br><span class="line"># accounts-daemon.service</span><br><span class="line">systemctl stop accounts-daemon.service</span><br><span class="line">systemctl disable accounts-daemon.service</span><br><span class="line">systemctl mask accounts-daemon.service</span><br><span class="line"></span><br><span class="line"># avahi-daemon.service</span><br><span class="line">systemctl stop avahi-daemon.service</span><br><span class="line">systemctl disable avahi-daemon.service</span><br><span class="line">systemctl mask avahi-daemon.service</span><br><span class="line"></span><br><span class="line"># bluetooth.service</span><br><span class="line">systemctl stop bluetooth.service</span><br><span class="line">systemctl disable bluetooth.service</span><br><span class="line">systemctl mask bluetooth.service</span><br><span class="line"></span><br><span class="line"># ModemManager.service</span><br><span class="line">systemctl stop ModemManager.service</span><br><span class="line">systemctl disable ModemManager.service</span><br><span class="line">systemctl mask ModemManager.service</span><br><span class="line"></span><br><span class="line"># pppd-dns.service</span><br><span class="line">systemctl stop pppd-dns.service</span><br><span class="line">systemctl disable pppd-dns.service</span><br><span class="line">systemctl mask pppd-dns.service</span><br><span class="line"></span><br><span class="line"># whoopsie.service</span><br><span class="line">systemctl stop whoopsie.service</span><br><span class="line">systemctl disable whoopsie.service</span><br><span class="line">systemctl mask whoopsie.service</span><br></pre></td></tr></table></figure>
+<h2 id="重演你的系统启动的所有消息"><a href="#重演你的系统启动的所有消息" class="headerlink" title="重演你的系统启动的所有消息"></a>重演你的系统启动的所有消息</h2><ul>
+<li><p><code>journalctl -b</code></p>
+<ul>
+<li>复审前一次启动<blockquote>
+<p><code>journalctl -b -1</code></p>
+</blockquote>
+</li>
+<li>复审倒数第 2 次启动<blockquote>
+<p><code>journalctl -b -2</code><br>类推</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>过滤器</p>
+<blockquote>
+<p>我们以进程号为 1 的进程为例，该进程是所有其它进程的父进程.</p>
+<ul>
+<li><code>journalctl _PID=1</code><br>这些打印消息显示了什么被启动，或者是正在尝试启动。</li>
+</ul>
+</blockquote>
+</li>
+<li><p>查看哪个服务进程启动耗时最长</p>
+<ul>
+<li><code>systemd-analyze blame</code></li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
-</footer>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/19/CentOS-系统配置/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="imrdr4@126.com">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek's Planet">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/19/CentOS-系统配置/" itemprop="url">CentOS 系统配置</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-19T20:11:23+08:00">
+                2018-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><code>vim /etc/sysconfig/network-scripts/ifcfg-eth0</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">BOOTPROTO=static</span><br><span class="line">ONBOOT=yes</span><br><span class="line">IPADDR=192.168.0.6</span><br><span class="line">NETMASK=255.255.255.0</span><br><span class="line">GATEWAY=192.168.0.1</span><br><span class="line">DNS1=192.168.0.1</span><br><span class="line">DNS2=8.8.8.8</span><br><span class="line">IPV6INIT=no</span><br></pre></td></tr></table></figure></p>
+<p>改完之后，执行以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">service ip6tables stop #停止ipv6服务</span><br><span class="line">chkconfig ip6tables off #禁止ipv6开机启动</span><br><span class="line">service network restart #重启网络连接</span><br><span class="line">ifconfig #查看ip地址</span><br><span class="line"></span><br><span class="line"># 以下是虚拟机安装centosmini时的/etc/sysconfig/network-scripts/ifcfg-eth0文件：</span><br><span class="line">DEVICE=eth0</span><br><span class="line">TYPE=Ethernet</span><br><span class="line">UUID=7fea7cf6-a7bc-4c84-aced-43d8bbb0d97e</span><br><span class="line">ONBOOT=yes</span><br><span class="line">NM_CONTROLLED=yes</span><br><span class="line">BOOTPROTO=none</span><br><span class="line">HWADDR=00:0C:29:F9:F9:49</span><br><span class="line">IPADDR=192.168.0.6</span><br><span class="line">GATEWAY=192.168.0.1</span><br><span class="line">DNS1=192.168.0.1</span><br><span class="line">DEFROUTE=yes</span><br><span class="line">IPV4_FAILURE_FATAL=yes</span><br><span class="line">IPV4INIT=no</span><br><span class="line">NAME=&quot;System eth0&quot;</span><br></pre></td></tr></table></figure></p>
+<p>参考链接：<br><a href="http://www.linuxidc.com/Linux/2016-06/132420.htm" target="_blank" rel="noopener">http://www.linuxidc.com/Linux/2016-06/132420.htm</a><br><a href="http://blog.csdn.net/clevercode/article/details/46376985" target="_blank" rel="noopener">http://blog.csdn.net/clevercode/article/details/46376985</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/19/U盘制作-Win7-系统安装盘/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="imrdr4@126.com">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Geek's Planet">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/01/19/U盘制作-Win7-系统安装盘/" itemprop="url">U盘制作 Win7 系统安装盘</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-19T20:08:29+08:00">
+                2018-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ul>
+<li><p>The following packages have been kept back</p>
+<blockquote>
+<p>据说是因为有部份packages的安装版比release版新而出现”The following packages have been kept back”这个问题，解决方法是使用apt-get -u dist-upgrade 统一更新到发布的版本。这条命令会强制更新软件包到最新版本，并自动解决缺少的依赖包。</p>
+</blockquote>
+</li>
+<li><p>根目录空间不足:</p>
+<blockquote>
+<ul>
+<li>dpkg –get-selections|grep linux </li>
+<li>sudo apt-get remove linux-image-2.6.15-23-386 </li>
+<li>uname -a </li>
+</ul>
+</blockquote>
+</li>
+<li><p>查看版本：</p>
+<blockquote>
+<ul>
+<li>uname -a </li>
+<li>cat /proc/version （Linux查看当前操作系统版本信息） </li>
+<li>cat /etc/issue 或cat /etc/redhat-release（Linux查看版本当前操作系统发行版信息） </li>
+<li>cat /proc/cpuinfo （Linux查看cpu相关信息，包括型号、主频、内核信息等） </li>
+<li>getconf LONG_BIT （Linux查看版本说明当前CPU运行在32bit模式下， 但不代表CPU不支持64bit） </li>
+<li>lsb_release -a</li>
+</ul>
+</blockquote>
+</li>
+<li><p>unexpected inconsistency RUN fsck ma…</p>
+<blockquote>
+<p>fsck -y sda11<br>reboot,ok</p>
+</blockquote>
+</li>
+<li><p>xmin:Theme directory devices/scalable of theme maia has no size field;An error has occurred. See the log file /home/fanswm/configuration/1500870303567.log;</p>
+<blockquote>
+<p>null;</p>
+</blockquote>
+</li>
+<li><p>修复grub：Parrot Linux</p>
+<blockquote>
+<p>判断主分区；例如是：<code>/dev/sda</code><br><code>sudo mount /dev/sda11  / mnt</code><br><code>mount --bind /dev/ /mnt/dev</code><br><code>mount --bind /proc /mnt/proc</code><br><code>mount --bind  /sys /mnt/sys</code><br><code>chroot /mnt</code><br><code>sudo update-grub</code><br><code>sudo update-grub2</code><br>进入系统后：<br><code>update-grub2</code></p>
+</blockquote>
+</li>
+<li><p>ubuntu卸载amazon:</p>
+<blockquote>
+<p><code>sudo apt-get remove unity-webapps-common</code></p>
+<ul>
+<li>simple-scan: 扫描易</li>
+<li>gnome-mahjongg: 麻将</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li>You might want to run ‘apt-get -f install’ to correct these.<br>The following packages have unmet dependencies:<br>linux-generic : Depends: linux-headers-generic (= 4.4.0.71.77) but 4.4.0.66.70 is installed<br>E: Unmet dependencies. Try using -f.</li>
+</ul>
+<blockquote>
+<p>删除提示的<code>linux-generic</code>未完全安装的软件。<br>    <code>$sudo dpkg --purge linux-generic</code></p>
+</blockquote>
+<ul>
+<li>E: Failed to fetch <a href="http://cn.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5netwo" target="_blank" rel="noopener">http://cn.archive.ubuntu.com/ubuntu/pool/main/q/qtbase-opensource-src/libqt5netwo</a></li>
+</ul>
+<blockquote>
+<p>本人的解决方法是：<br><code>sudo mv /var/lib/apt/lists /var/lib/apt/lists.bak</code><br><code>sudo mkdir /var/lib/apt/lists</code></p>
+<blockquote>
+<p>就是备份下lists目录，创建一个新的lists目录。再执行sudo apt-get update问题解决。但是这可以解决大部分问题，个别源不能解决，如”/var/lib/apt/lists/partial /extras.ubuntu.com_ubuntu_dists_precise_main_binary-i386_Packages”，无耐进入 /var/lib/apt/lists/将对应的文件删除</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><p>查看文件系统</p>
+<blockquote>
+<p><code>df -Th</code></p>
+</blockquote>
+</li>
+<li><p>在Linux系统下用dd命令制作ISO镜像U盘启动盘</p>
+<blockquote>
+<p><code>sudo dd if=~/images/ubuntu.iso of=/dev/sdb</code></p>
+</blockquote>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">imrdr4@126.com</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">Artikel</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">Tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">imrdr4@126.com</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
-<!-- styles -->
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="/lib/meslo-LG/styles.css">
-<link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
-
-<!-- jquery -->
-<script src="/lib/jquery/jquery.min.js"></script>
-<script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
-<script src="/js/main.js"></script>
-<!-- search -->
-
-<!-- Google Analytics -->
-
-    <script type="text/javascript">
-        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-86660611-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-<!-- Disqus Comments -->
-
-
